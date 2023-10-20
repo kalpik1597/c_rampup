@@ -7,8 +7,8 @@ int main() {
 
     //arrays initialization
     int int_arr_1[] = {7,5,9,6,8,4,3,1,2,0};
-    char char_arr_1[] = {'c','h','a','r'};
-    char string_1[] = {"char"};
+    //char char_arr_1[] = {'c','h','a','r'};
+    //char string_1[] = {"char"};
 
     //sizeof arrays
     //printf("sizeof int_arr_1: %lu\n",sizeof(int_arr_1));
@@ -31,7 +31,7 @@ int main() {
         }
     }
 
-    //print int_arr_1 after sort
+    //print sorted int_arr_1
     printf("ascending sorted int_arr_1[]: ");
     for(int i=0; i<(sizeof(int_arr_1)/sizeof(int)); i++) {
         printf("%d ", int_arr_1[i]);
