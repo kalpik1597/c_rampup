@@ -24,7 +24,7 @@ int main() {
 
     //sort int_arr_1
     for(int i=0; i<(sizeof(int_arr_1)/sizeof(int)); i++) {
-        for(int j=0; j<((sizeof(int_arr_1)/sizeof(int))-i); j++) {
+        for(int j=0; j<((sizeof(int_arr_1)/sizeof(int))-(i+1)); j++) {
             if(int_arr_1[j]>int_arr_1[j+1]) {
                 int_arr_1[j] = (int_arr_1[j] + int_arr_1[j+1]) - (int_arr_1[j+1] = int_arr_1[j]);
             }
