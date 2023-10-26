@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+//can not be used in other file
 typedef int int_array[9];
 
 void main() {
